@@ -12,10 +12,10 @@ namespace ConsoleApplication14
             //  String logFilePath = RequestParser.GetCurrentWorkingDirectory() + "\\NewJobs\\testdelete.txt";
             using (var wc = new System.Net.WebClient())
             {
-                await wc.DownloadFileTaskAsync(new Uri("http://problemdescription.000webhostapp.com/requestInfo.txt"), @"C:\Users\Robert\Desktop\Chatt Mobility\Download Here\testdelete.txt");  //directory needs to be fixed
+                await wc.DownloadFileTaskAsync(new Uri("****"), @"C:\****");  //directory needs to be fixed
             }
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://problemdescription.000webhostapp.com/clearfile.php");
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://.php");
             request.Method = "GET";
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
         }
