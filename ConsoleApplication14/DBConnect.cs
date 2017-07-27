@@ -21,7 +21,7 @@ namespace ConsoleApplication14
             const string server = "localhost";
             const string database = "chattmob";
             const string uid = "root";
-            const string password = "T0mgr33n";
+            const string password = "********";
             const string connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" +
                                             "PASSWORD=" + password + ";";
             connection = new MySqlConnection(connectionString);
