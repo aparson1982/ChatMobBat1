@@ -18,9 +18,9 @@ namespace ConsoleApplication14
 
         public MySqlConnection Initialize()
         {
-            const string server = "localhost";
-            const string database = "chattmob";
-            const string uid = "root";
+            const string server = "********";
+            const string database = "********";
+            const string uid = "********";
             const string password = "********";
             const string connectionString = "SERVER=" + server + ";" + "DATABASE=" + database + ";" + "UID=" + uid + ";" +
                                             "PASSWORD=" + password + ";";
