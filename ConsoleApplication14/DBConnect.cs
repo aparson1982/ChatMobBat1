@@ -41,7 +41,7 @@ namespace ConsoleApplication14
                 switch (ex.Number)
                 {
                     case 0:
-                        Console.WriteLine("Cannot connect to server.  Contact Adam Parson");
+                        Console.WriteLine("Cannot connect to server.");
                         break;
 
                     case 1045:
