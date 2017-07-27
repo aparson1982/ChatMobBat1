@@ -71,7 +71,7 @@ namespace ConsoleApplication14
             for (int j = 0; j < 20; j++)
                 try
                 {
-                    using (StreamReader file = new StreamReader(@"C:\Users\Robert\Desktop\Chatt Mobility\Download Here\testdelete.txt"))
+                    using (StreamReader file = new StreamReader(@"*****"))
                     {
                         string firstName = null;
                         string lastName = null;
